@@ -1,0 +1,9 @@
+bibata-cursor-git
+bluetui
+cava
+oh-my-zsh-git
+peaclock
+pwvucontrol
+wlogout
+yay-git
+yay-git-debug

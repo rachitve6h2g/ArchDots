@@ -1,0 +1,9 @@
+- Integrate the Gruvbox theme with LSP/treesitter/whatever needs integration
+- When Peaclock is properly set and learnt, remove gnome-clocks
+- Set up Telescope before setting dashboard
+- Install nvimcss-colors for neovim and then integrate it with cmp
+- Set up a notification for battery @ 80%, @ 30% and @ 90%;
+- Set up sound for fnott notifications
+- Replace nvim-surround with mini.surround
+- After setting up nvimcsscolors and nvim-notify change highlight groups for the nvim-notify
+- Setup bufferline and replace netrw with nvim-tree or neo-tree
