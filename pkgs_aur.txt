@@ -1,9 +1,11 @@
 bibata-cursor-git
 bluetui
 cava
+gruvbox-material-gtk-theme-git
+gruvbox-material-icon-theme-git
 oh-my-zsh-git
 peaclock
-pwvucontrol
+vscodium-bin
 wlogout
 yay-git
 yay-git-debug
