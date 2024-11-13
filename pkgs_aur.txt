@@ -1,11 +1,11 @@
 bibata-cursor-git
 bluetui
 cava
+epub-thumbnailer-git
+grimblast-git
 gruvbox-material-gtk-theme-git
 gruvbox-material-icon-theme-git
 oh-my-zsh-git
-peaclock
-vscodium-bin
-wlogout
+vscodium
 yay-git
 yay-git-debug
