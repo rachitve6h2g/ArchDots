@@ -1,0 +1,5 @@
+2024-12-27 16:12:16.469 [info] Configuration changed
+2024-12-27 16:12:54.820 [info] Executing :wq
+2024-12-27 16:12:54.869 [info] /home/chris/.config/zsh/.zshrc closed
+2024-12-27 16:12:54.869 [warning] getLineLength() called with out-of-bounds line 70
+2024-12-27 16:12:54.869 [warning] getLineLength() called with out-of-bounds line 70

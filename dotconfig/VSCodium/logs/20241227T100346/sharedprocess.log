@@ -1,0 +1,12 @@
+2024-12-27 10:04:15.440 [info] Getting Manifest... vscodevim.vim
+2024-12-27 10:04:18.803 [info] Installing extension: vscodevim.vim {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/chris/.vscode-oss/extensions/extensions.json","path":"/home/chris/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.96.2","date":"2024-12-21T00:45:47.611Z"}}
+2024-12-27 10:04:21.779 [info] Extracted extension to file:///home/chris/.vscode-oss/extensions/vscodevim.vim-1.29.0-universal: vscodevim.vim
+2024-12-27 10:04:21.783 [info] Renamed to /home/chris/.vscode-oss/extensions/vscodevim.vim-1.29.0-universal
+2024-12-27 10:04:21.802 [info] Extension installed successfully: vscodevim.vim vscode-userdata:/home/chris/.vscode-oss/extensions/extensions.json
+2024-12-27 10:04:21.877 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/chris/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/chris/.vscode-oss/extensions/extensions.json.vsctmp'
+    at Kv.create (file:///opt/vscodium-bin/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:44554)
+    at xi (file:///opt/vscodium-bin/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:44661)
+    at jn.toFileSystemProviderError (file:///opt/vscodium-bin/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:28652)
+    at jn.stat (file:///opt/vscodium-bin/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:20509)
+    at async vu.stat (file:///opt/vscodium-bin/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:103140)
+    at async du.onDidFilesChange (file:///opt/vscodium-bin/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:80829)

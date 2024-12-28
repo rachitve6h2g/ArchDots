@@ -1,0 +1,5 @@
+2024-12-27 10:04:23.797 [info] Active editor: file:///home/chris/.config/uwsm/env
+2024-12-27 10:04:28.093 [info] Executing :wq
+2024-12-27 10:04:28.138 [info] /home/chris/.config/uwsm/env closed
+2024-12-27 10:04:28.141 [warning] getLineLength() called with out-of-bounds line 12
+2024-12-27 10:04:28.141 [warning] invalid cursor position. [[12, 6] | [12, 6]].

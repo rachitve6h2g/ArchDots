@@ -1,0 +1,15 @@
+[[opener.add-sub]]
+run  = ''' echo sub-add "'$0'" | socat - /tmp/mpv.sock '''
+desc = "Add sub to MPV"
+
+[[open.prepend_rules]]
+name = "*.{ass,srt,ssa,sty,sup,vtt}"
+use  = [ "add-sub", "edit" ]
+
+[plugin]
+prepend_previewers = [
+    { name = "*.md", run = "glow" },
+    { mime = "{image,audio,video}/*", run = "mediainfo" },
+    { mime = "application/subrip", run = "mediainfo" },
+    { name = "*/", run = "eza-preview" },
+]

@@ -1,0 +1,20 @@
+[manager]
+prepend_keymap = [
+    { on = "!", run = 'shell "$SHELL" --block', desc = "Open shell here" },
+    { on = "l", run = "plugin smart-enter", desc = "Enter the child directory, or open the file" },
+    { on = "p", run  = "plugin smart-paste", desc = "Paste into the hovered directory or CWD" },
+    { on = "<C-p>", run = 'paste', desc = "Paste yanked files" },
+    { on = "t", run  = "plugin smart-tab", desc = "Create a tab and enter the hovered directory" },
+    { on = "E", run = "plugin eza-preview", desc = "Toggle tree/list dir preview"},
+     # simple-mtpfs plugin
+    { on = [ "M", "m" ], run = "plugin simple-mtpfs --args='select-then-mount --jump'", desc = "Select device to mount and jump to its mount point" },
+    # This will remount device under cwd (e.g. cwd = $HOME/Media/1_ZTEV5/Downloads/, device mountpoint = $HOME/Media/1_ZTEV5/)
+    { on = [ "M", "r" ], run = "plugin simple-mtpfs --args=remount-current-cwd-device", desc = "Remount device under cwd" },
+    { on = [ "M", "u" ], run = "plugin simple-mtpfs --args=select-then-unmount", desc = "Select device then unmount" },
+    { on = [ "g", "m" ], run = "plugin simple-mtpfs --args=jump-to-device", desc = "Select device then jump to its mount point" },
+    { on = [ "g", "u" ], run = 'cd /run/media/chris', desc = "Jump to mounted Flash drives" },
+    { on = [ "`", "`" ], run = "plugin simple-mtpfs --args=jump-back-prev-cwd", desc = "Jump back to the position before jumped to device" },
+    # to see the size of a directory or file
+    { on = [ ".", "s" ], run = "plugin what-size", desc = "Calc size of selection or cwd" },
+    { on = [ ".", "." ], run = "hidden toggle", desc = "Toggle the visibility of hidden files" },
+]

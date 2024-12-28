@@ -1,0 +1,21 @@
+[Unit]
+Description=Playerctld daemon for Hyprland
+Documentation=man:playerctl(1)
+# order startup after WM
+After=graphical-session.target
+
+[Service]
+Type=exec
+# Repurpose XDG Autostart filtering
+ExecCondition=/lib/systemd/systemd-xdg-autostart-condition "wlroots:sway:Wayfire:labwc:Hyprland" ""
+ExecStart=/usr/bin/playerctld daemon
+Restart=on-failure
+Slice=session-graphical.slice
+
+[Install]
+WantedBy=graphical-session.target
+# Alternatively can be wanted by specific WMs
+#WantedBy=wayland-session@sway.desktop.target
+#WantedBy=wayland-session@wayfire.desktop.target
+#WantedBy=wayland-session@labwc.desktop.target
+#WantedBy=wayland-session@hyprland.desktop.target

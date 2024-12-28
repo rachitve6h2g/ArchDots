@@ -1,0 +1,5 @@
+[plugin]
+deps = [{ use = "yazi-rs/plugins:full-border", rev = "71c4fc2" }, { use = "yazi-rs/plugins:smart-enter", rev = "71c4fc2" }, { use = "Reledia/glow", rev = "c2ed51e" }, { use = "boydaihungst/mediainfo", rev = "ddfd5ec" } , { use = "ahkohd/eza-preview", rev = "5ef05bc" }, { use = "imsi32/yatline", rev = "600ed1f" }, { use = "imsi32/yatline-catppuccin", rev = "dc575da" }, { use = "boydaihungst/simple-mtpfs", rev = "4941d8f" }, { use = "pirafrank/what-size", rev = "6791caa" }]
+
+[flavor]
+deps = [{ use = "yazi-rs/flavors:catppuccin-mocha", rev = "8458d25" }]
